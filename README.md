@@ -1,0 +1,1 @@
+A discord bot written for django-discord server located [here](https://discord.gg/5GDtFuR).
