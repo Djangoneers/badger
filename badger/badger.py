@@ -25,7 +25,7 @@ class Badger(Bot):
         # which contain models from "app.models"
         await Tortoise.init(
             db_url='sqlite://db.sqlite3',
-            modules={'models': ['app.models']}
+            modules={'models': ['db.models']}
         )
         # Generate the schema
         await Tortoise.generate_schemas()
